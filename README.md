@@ -92,9 +92,9 @@ To get started with the project, follow these steps:
 
 The following smart contracts are part of the system:
 
-- **Farmer.sol:** Manages farmer registration and details.
-- **Subsidy.sol:** Handles the creation and application process for subsidies.
-- **Verification.sol:** Provides government authorities the ability to verify and approve subsidy applications.
+- **Migration.sol:** Manages farmer registration and details.
+- **MarketPlace.sol:** Handles the creation and application process for subsidies.
+- **MarketPlace0.sol:** Provides government authorities the ability to verify and approve subsidy applications.
 
 ## Contributing
 
