@@ -3,13 +3,13 @@ Farmers submit subsidy applications via a blockchain platform, with each recorde
 
 npm install 
 
-//Running the Ganache-cli
+// Running Ganache CLI starts a local Ethereum blockchain for development, enabling you to deploy contracts, test transactions, and interact with your applications in a controlled environment.
 
 ganache-cli
 
 
 
-// Migrating the contract and testing it
+// Migrating the contract involves deploying it to the blockchain and running tests to ensure its functionality and reliability.
 
 sudo truffle migrate --reset
 
@@ -17,5 +17,5 @@ sudo truffle test
 
 npm run start
 
-=======
+
 
