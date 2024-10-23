@@ -1,6 +1,4 @@
-Here’s the `README.md` content in markdown format ready for you to copy and paste:
 
-```markdown
 # Subsidy Distribution System
 
 This project is designed to create a **blockchain-based subsidy distribution system** that ensures transparency, efficiency, and security in the management and distribution of government subsidies. The system leverages **Solidity**, **Truffle**, **Hardhat**, **Ganache**, **Node.js**, and **React.js** to provide a decentralized solution where farmers can register, apply for subsidies, and government authorities can verify eligibility and approve or reject applications. All transactions are handled securely via **MetaMask**.
@@ -122,4 +120,4 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 ```
 
-Just copy and paste the above content into your `README.md` file, and you're all set!
+
