@@ -1,0 +1,68 @@
+.Toolbar{
+    position: relative;
+    /* width: 130%; */
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 32, 30);
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Toolbar h1{
+    display: flex;
+    align-self: left;
+    padding: 0 20px;
+    font-size:xx-large;
+    color : white;
+}
+
+.Toolbar nav{
+    height: 100%;
+
+}
+
+.Cbutton {
+    background-color: #4CAF50; /* Earthy green for a natural feel */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.Cbutton:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.Cbutton:active {
+    transform: translateY(1px);
+    background-color: #3d8b40; /* A more pronounced dark green when clicked */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Logo{
+    height: 80%;
+}
+.Button{
+    display: none;
+}
+
+@media(max-width:499px){
+    .DesktopOnly{
+        display: none;
+    }
+    .Button{
+        display: flex;
+    }
+}

@@ -1,0 +1,50 @@
+/* Styles go here */
+body {
+  background-color: white;
+}
+
+.c_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  left: 420px;
+  border-radius: 5px;
+  margin: auto;
+  padding-left: 15px;
+  padding: 20px;
+}
+
+.lol {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Toggle Button Styles */
+.toggle-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Bootstrap primary color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px; /* Add margin for spacing */
+}
+
+/* Hover Effect for Toggle Button */
+.toggle-button:hover {
+  background-color: #45a049; /* Darker shade for hover effect */
+}
+
+/* Active state for button */
+.toggle-button:active {
+  background-color: #3d8b40; /* Even darker shade when button is active */
+}

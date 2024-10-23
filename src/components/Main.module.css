@@ -1,0 +1,117 @@
+.Main {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Wrapper {
+    /* background-image: url('./mainpic.jpg');  */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full screen */
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the card */
+.Card {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    max-width: 700px; 
+    border-radius: 5px;
+    background-color: rgba(65, 65, 65, 0.727); /* Slightly transparent background */
+    margin: auto;
+    padding: 20px 50px;
+}
+
+/* Title styling */
+.Te {
+    text-align: center;
+    color: white;
+    font-size: 36px; /* Adjust font size */
+    font-weight: bold;
+}
+
+/* Button styling */
+.Cbutton {
+    background-color: #4CAF50; /* Earthy green for a natural feel */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.Cbutton:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.Cbutton:active {
+    transform: translateY(1px);
+    background-color: #3d8b40; /* A more pronounced dark green when clicked */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Centered text box styling */
+.Textboxcontainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Centeredtextbox {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #4a5049;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.Centeredtextbox::placeholder {
+    color: #14461d;
+    font-style: italic;
+}
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TableHeader {
+    background-color: #c5dbc7;
+    text-align: left;
+    font-weight: bold;
+}
+
+.TableHeader th {
+    padding: 12px;
+}
+
+.TableRow {
+    border-bottom: 1px solid #cfebd8;
+}
+
+.TableRow:hover {
+    background-color: #c9e6c6;
+}
+
+.TableRow td {
+    padding: 12px;
+}
